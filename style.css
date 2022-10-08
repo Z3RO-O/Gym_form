@@ -1,6 +1,6 @@
 body {
-    font-family: "Dancing Script", cursive;
-    color: white;
+    
+    
     margin: 0px;
     padding: 0px;
     background-image: url("https://unsplash.imgix.net/photo-1428278953961-a8bc45e05f72?fit=crop&amp;fm=jpg&amp;h=500&amp;q=75&amp;w=1050");
@@ -40,6 +40,8 @@ body {
   }
   .navbar {
     display: inline-block;
+    color: grey;
+    font-size: 1.6rem;
   }
   .navbar li {
     display: inline-block;
@@ -47,16 +49,16 @@ body {
   }
   .navbar li a {
     text-decoration: none;
-    color: white;
+  
     padding: 16px 16px;
   }
   .navbar li a:hover {
     text-decoration: underline;
-    color: grey;
+    color:grey;
     padding: 16px 16px;
   }
   .btn {
-    font-family: "Dancing Script", cursive;
+    font-family: "Roboto Mono", monospace;
     margin: 0px 12px;
     background-color: black;
     color: white;
@@ -98,4 +100,19 @@ body {
   } */
   body, html{
     height: 100%;
+  }
+ .style{
+  color:grey;
+  font-size: 1.6rem;;
+ }
+ .text1:hover{
+  width: 340px;
+  
+  color: white;
+ }
+ .container:hover{
+  border-color: blue;
+  box-shadow: 0 0 10px white,
+              0 0 20px white,
+              0 0 40px white;
   }
